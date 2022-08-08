@@ -3,10 +3,12 @@
 *{
     margin: 0cm;
     padding: 0cm;
+    box-sizing: border-box;
 }
 
 body{
     font-family: 'Jost', sans-serif;
+    font-size: 18px;
 }
 
 .header{
@@ -14,7 +16,7 @@ body{
     height: 100px;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items:center;
 }
 
@@ -32,21 +34,61 @@ body{
 .navbar{
     display: flex;
     justify-content: flex-end;
-    margin: right 30px;
+    align-items: center;
+    margin-right: 30px;
     width: 50%;
-    background-color: blanchedalmond;
 }
 
 .navbar a{
     text-decoration: none;
+    margin: 10px;
+    width: fit-content;
+    color: white;
+}
+
+.btn-yellow{
+    background-color: rgb(255,219,128,0.24);
+    border-radius: 30px;
+    border: 1px solid #ffd880;
+    padding: 10px 20px;
 }
 .main-hero{
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 30px 20px;
  }
 
+ .hero-img{
+    width: 50%;
+ }
+
+ .hero-text {
+    width: 50%;
+    padding: 0px 50px;
+   
+ }
+
+ .hero-text h1{
+    color: #FF7F99;
+    font-weight: 400;
+    font-size: 5em;
+   
+ }
+
+ .hero-text h5{
+    font-weight: 500;
+    font-size: 1.5rem;
+ }
+ 
+ .btn-call{
+    background-color: #ffca41;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    margin: 20px 0px;
+ }
 
  .section-team{
     background-color: #FF7F99;
@@ -55,3 +97,26 @@ body{
     align-items: center;
  }
 
+ .team-member{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 30px;
+ }
+
+ .img-member{
+    width: 100%;
+    max-width: 225px;
+ }
+
+ .team-member h3{
+    color: white;
+    font-weight: 400;
+    font-size: 1.7rem;
+ }
+
+ .team-member h4{
+    color: rgb(75, 75, 75);
+    font-weight: 400;
+    font-size: 1.2rem;
+ }
