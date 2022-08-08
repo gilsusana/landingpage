@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,400;0,900;1,700&display=swap');
+
+*{
+    margin: 0cm;
+    padding: 0cm;
+}
+
+body{
+    font-family: 'Jost', sans-serif;
+}
+
+.header{
+    background-color: #FF7F99;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.logo{
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+    margin: 0px 30px;
+}
+
+.logo span{
+    color:#ffca41;
+}
+
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    margin: right 30px;
+    width: 50%;
+    background-color: blanchedalmond;
+}
+
+.navbar a{
+    text-decoration: none;
+}
+.main-hero{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+
+ .section-team{
+    background-color: #FF7F99;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
